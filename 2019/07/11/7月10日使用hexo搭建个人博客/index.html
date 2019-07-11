@@ -143,11 +143,11 @@
     <div class="post-content ">
         <h2 id="搭建步骤："><a href="#搭建步骤：" class="headerlink" title="搭建步骤："></a><strong>搭建步骤：</strong></h2><h3 id="搭建可本地访问的博客"><a href="#搭建可本地访问的博客" class="headerlink" title="搭建可本地访问的博客"></a><strong><em>搭建可本地访问的博客</em></strong></h3><ul>
 <li><p><strong>安装Node.js</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install node nodejs-bin</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><strong>安装Hexo</strong></p>
-<p><br>Hexo就是我们的个人博客网站的框架，使用npm命令安装Hexo，输入：<br></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p><br>Hexo就是我们的个人博客网站的框架，使用npm命令安装Hexo，输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 
 <p>这个安装时间较长耐心等待，安装完成后，初始化我们的博客，输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
@@ -158,20 +158,20 @@
 <p>为了检测我们的网站雏形，分别按顺序输入以下三条命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p>这些命令在后面作介绍，完成后，打开浏览器输入地址：</p>
-<p>localhost:4000</p>
-<p>可以看出我们写出第一篇默认博客</p>
+<p><br> 这些命令在后面作介绍，完成后，打开浏览器输入地址：<br></p>
+<p><br>localhost:4000<br></p>
+<p><br>可以看到我们写出第一篇默认博客<br><br></p>
 </li>
 <li><p><strong>安装gedit并编辑博客文章</strong></p>
-<p><br>使用以下命令安装gedit<br></p>
+<p><br>使用以下命令安装gedit</p>
 <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt <span class="keyword">install</span> gedit</span><br></pre></td></tr></table></figure>
 
 <p>顺序使用一下命令生成新的文章并更新部署</p>
 <figure class="highlight cos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">"TITLE"</span> （TITLE为文章标题）</span><br><span class="line">gedit ~/.<span class="built_in">..md</span> （~/.<span class="built_in">..md</span>）为文章路径，此句打开编辑器使用markdown编辑内容后保存并关闭）</span><br><span class="line">hexo g</span><br><span class="line">hexo <span class="keyword">d</span></span><br><span class="line">hexo <span class="keyword">s</span></span><br></pre></td></tr></table></figure>
 
-<p>完成后，打开浏览器输入地址：</p>
-<p>localhost:4000</p>
-<p>可以看出我们更新后的博客博客</p>
+<p><br>完成后，打开浏览器输入地址：<br></p>
+<p><br>localhost:4000<br></p>
+<p><br>可以看出我们更新后的博客<br><br></p>
 </li>
 </ul>
 <h3 id="结合GitHub搭建可互联网访问的博客"><a href="#结合GitHub搭建可互联网访问的博客" class="headerlink" title="结合GitHub搭建可互联网访问的博客"></a>结合GitHub搭建可互联网访问的博客</h3><ul>
