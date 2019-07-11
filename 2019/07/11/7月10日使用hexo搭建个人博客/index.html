@@ -146,7 +146,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 </li>
 <li><p><strong>安装Hexo</strong></p>
-<p><br>Hexo就是我们的个人博客网站的框架，使用npm命令安装Hexo，输入：</p>
+<p><br>Hexo就是我们的个人博客网站的框架，使用npm命令安装Hexo，输入：<br></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <p>这个安装时间较长耐心等待，安装完成后，初始化我们的博客，输入：</p>
@@ -160,10 +160,10 @@
 
 <p>这些命令在后面作介绍，完成后，打开浏览器输入地址：</p>
 <p>localhost:4000</p>
-<p>可以看出我们写出第一篇默认博客<br></p>
+<p>可以看出我们写出第一篇默认博客</p>
 </li>
 <li><p><strong>安装gedit并编辑博客文章</strong></p>
-<p><br>使用以下命令安装gedit</p>
+<p><br>使用以下命令安装gedit<br></p>
 <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt <span class="keyword">install</span> gedit</span><br></pre></td></tr></table></figure>
 
 <p>顺序使用一下命令生成新的文章并更新部署</p>
@@ -171,7 +171,7 @@
 
 <p>完成后，打开浏览器输入地址：</p>
 <p>localhost:4000</p>
-<p>可以看出我们更新后的博客博客<br></p>
+<p>可以看出我们更新后的博客博客</p>
 </li>
 </ul>
 <h3 id="结合GitHub搭建可互联网访问的博客"><a href="#结合GitHub搭建可互联网访问的博客" class="headerlink" title="结合GitHub搭建可互联网访问的博客"></a>结合GitHub搭建可互联网访问的博客</h3><ul>
@@ -179,7 +179,7 @@
 <p><br>登录到GitHub,如果没有GitHub帐号，使用你的邮箱注册GitHub帐号。点击GitHub中的New repository创建新仓库，仓库名应该为：<strong>用户名</strong>.github.io 这个<strong>用户名</strong>使用你的GitHub帐号名称代替，这是固定写法。<br></p>
 </li>
 <li><p><strong>安装Git</strong></p>
-<p><br>什么是Git ?简单来说Git是开源的分布式版本控制系统，用于敏捷高效地处理项目。我们网站在本地搭建好了，需要使用Git同步到GitHub上。</p>
+<p><br>什么是Git?简单来说Git是开源的分布式版本控制系统，用于敏捷高效地处理项目。我们网站在本地搭建好了，需要使用Git同步到GitHub上。</p>
 <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt <span class="keyword">install</span> git</span><br></pre></td></tr></table></figure>
 
 <p>安装Git部署插件，输入命令：</p>
@@ -201,7 +201,7 @@
 <p>这时，我们分别输入两条命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g </span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>其实第三条的 hexo d 就是部署网站命令，d是deploy的缩写。命令后需要我们先后输入GitHub的用户名与密码，按照提示完成操作即可。完成后，打开浏览器，在地址栏输入你的放置个人网站的仓库路径,就可以在线看到我们的博客了。</p>
+<p>其中第二条的 hexo d 就是部署网站命令，d是deploy的缩写。命令后需要我们先后输入GitHub的用户名与密码，按照提示完成操作即可。完成后，打开浏览器，在地址栏输入你的放置个人网站的仓库路径,就可以在线看到我们的博客了。</p>
 </li>
 </ul>
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
@@ -212,7 +212,7 @@
 <p><br>我们开始正式发布上线博客文章，在命令行中输入：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">"博客名字"</span></span><br></pre></td></tr></table></figure>
 
-<p>我们会发现在blog根目录下的source文件夹中的_post文件夹中多了一个 <strong>博客名字.md</strong> 文件，使用Markdown编辑器打开，就可以开始你的个人博客之旅了，Markdown常用的样式也就十来种，完全能够满足一般博文的样式要求。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入域名浏览。<br></p>
+<p>我们会发现在blog根目录下的source文件夹中的_post文件夹中多了一个 <strong>博客名字.md</strong> 文件，使用Markdown编辑器打开，就可以开始你的个人博客之旅了，Markdown常用的样式也就十来种，完全能够满足一般博文的样式要求。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入Github链接浏览。<br></p>
 </li>
 </ul>
 
